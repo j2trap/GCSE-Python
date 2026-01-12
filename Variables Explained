@@ -1,1 +1,32 @@
+#Variables explained
+
+#variables explanation:
+#a named location
+#in a computers memory
+#that stores a value
+#and the value can be changed
+
+#Example:
+name = "rohith"   # this is a variable
+#the variable is called "name"
+#the variable contains a value, "rohith"
+
+age = 15
+football_team = "barcelona"
+favourite_color = "black"
+float = 7.99
+
+
+character = "*"
+realFloat = 3.1415926
+integer = 5
+boolean = True
+string = "h1h1h1h1h1h1"
+
+
+print("this is a character:", character)
+print("this is a float:",realFloat)
+print("this is an integer:",integer)
+print("this is a boolean:",boolean)
+print("this is a stirng:",string)
 
