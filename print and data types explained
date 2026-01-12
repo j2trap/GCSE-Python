@@ -1,9 +1,9 @@
 for i in range (1,67):
- print("thomas is really smart")#this is a string
- print("4")#this is an intger
- print("4.5")#this is a real/float
- print("$") #this is a character
- print(True)#this is a boolean
+ print("thomas is really smart")   #this is a string
+ print("4")   #this is an intger
+ print("4.5")   #this is a real/float
+ print("$")   #this is a character
+ print(True)   #this is a boolean
 
 #data types
 #CRIBS
