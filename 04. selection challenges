@@ -25,3 +25,51 @@ if num1 > 10 and num1 < 20:
 else:
     print("incorrect answer")
 4. 
+favcolor = str(input("what is your favourite colour>"))
+
+if favcolor == "red" or favcolor =="RED" or favcolor == "Red":
+    print("i like red too")
+
+else:
+    print("I don't like", favcolor,",",favcolor ,"is for losers")
+5. 
+rain = str(input("Is it raining")).lower()
+
+if rain == "yes":
+    wind = str(input("Is it windy?")).lower()
+    if wind == "yes":
+        print("It is too windy for an umbrella")
+    else:
+        print("take an umbrella")
+else:
+    print("Enjoy your day")
+6. 
+age = int(input("How old are you"))
+if age >= 18:
+    print("you can vote.")
+elif age == 17:
+    print("you can learn to drive.")
+elif age == 16:
+    print("you can buy a lottery ticket.")
+else:
+    print(" you can go trick or treating.")
+7. 
+num1 = int(input("enter a number."))
+
+if num1 < 10:
+    print("too low")
+elif num1 > 10 and num1 < 20:
+    print("correct")
+else:
+    print("too high u crazy pizza pie")
+8.
+num = int(input("enter a number: 1, 2 or 3"))
+
+if num == 1:
+    print("thank you")
+elif num== 2:
+    print("well done, you are so smart")
+elif num== 3:
+    print("amazing, you are so good at this")
+else:
+    print("really? what is wrong with you ??")
