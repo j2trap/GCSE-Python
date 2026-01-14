@@ -1,1 +1,27 @@
+1. 
+num1 = int(input("Give me an number."))
+num2 = int(input("Give me another number."))
 
+if num1 > num2:
+    print(num2, num1)
+
+else:
+    print(num1, num2)
+
+2. 
+num1 = int(input("Enter a number below 20"))
+
+if num1 >= 20:
+    print("too high")
+
+else:
+    print("thank you")
+3. 
+num1 = int(input("Enter a number between 10 and 20"))
+
+if num1 > 10 and num1 < 20:
+    print("thank you")
+
+else:
+    print("incorrect answer")
+4. 
