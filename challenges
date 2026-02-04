@@ -1,0 +1,29 @@
+1. total = 0
+while total <=50:
+    num = int(input("enter a number"))
+    total = total + num
+
+2. total = 0
+while total <= 5:
+    num = int(input("enter a number"))
+    total = total + num
+print("the last number u entered was {}".format(num))
+
+3. ans = "y"
+total = 0
+while ans == "y":
+    num = input("enter a number")
+    ans = input("do you want to enter another number?")
+print(num)
+
+4. ans = "y"
+total = 0
+
+while ans == "y":
+    name = input("who do you want to invite")
+    print(name, "has been invited")
+    total += 1
+    ans = input("do you want to invite another person?")
+print(total, "people have been added")
+
+5. 
