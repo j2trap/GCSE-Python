@@ -1,1 +1,12 @@
+#string clicing explained
+fruit = "banana"
+print(fruit[2+2])
+#above is a variable that contains
+#a string
+#the print function prints from
+#the variable, but has square brackets
+#which is an index
+
+person = "MAdAM"
+print(person[0:3]
 
