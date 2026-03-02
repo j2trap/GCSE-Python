@@ -1,1 +1,34 @@
+1. name = input("enter your name")
+print(len(name))
 
+2. Fname = input("enter your first name")
+Lname = input("enter your last name")
+Full_name = (Fname +" "+ Lname)
+print(Full_name)
+print(len(Full_name))
+
+3. Fname = input("enter your first name").lower()
+Lname = input("enter your last name").lower()
+Full_name = (Fname +" "+ Lname)
+print(Full_name)
+
+4. rhyme = input("enter a nursery rhyme")
+Rlen = len(rhyme)
+print("this letter has", Rlen, "letters in it")
+Snum = int(input("enter a starting number"))
+Enum = int(input("enter an ending number"))
+print(rhyme[Snum:Enum])
+
+5. word = input("enter any word")
+Uword = (word).upper()
+print(Uword)
+
+6. Fname = input("enter your first name")
+if len(Fname) < 5:
+    Lname = input("enter your last name")
+    Full_name = (Fname.lower() +" "+ Lname)
+    print(Fname.upper())
+else:
+    print(Fname.lower())
+
+7. 
