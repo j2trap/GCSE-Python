@@ -1,1 +1,39 @@
+1. cars = []
+new_cars = input("enter a car brand>>>")
+cars.append(new_cars)
+new_carss = input("enter another two car brands>>>")
+cars.append(new_carss)
+print(cars)
 
+2. cars = []
+
+SENTRY = True
+
+while SENTRY == True:
+    car = input("enter a car brand or press x to exit")
+    if car == "x":
+        print("exiting...")
+        break 
+    else:
+     cars.append(car)
+print(cars)
+
+3. 
+guests = []
+
+
+print("Enter the names of three people you want to invite:")
+for i in range(3):
+    name = input(f"Guest {i+1}: ")
+    guests.append(name)
+
+
+add_more = "yes"
+while add_more.lower() != "no":
+    add_more = input("Do you want to add another? (yes/no): ")
+    if add_more.lower() == "yes":
+        new_name = input("Enter the name: ")
+        guests.append(new_name)
+
+
+print(f"You have invited {len(guests)} people to the party.") 
