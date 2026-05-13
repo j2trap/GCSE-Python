@@ -1,1 +1,41 @@
+1. MySpaceCompany = []
+print(MySpaceCompany)
+for i in range(3):
+ vehicle = input("enter three types of space vehicles>>>")
+ MySpaceCompany.append(vehicle)
+print(MySpaceCompany)
 
+2. MySpaceCompany = ['rocket pack', 'moon base', 'moon buggy']
+print(MySpaceCompany)
+MySpaceCompany[0] = "rich people are going to Mars"
+print(MySpaceCompany)
+MySpaceCompany[1] = "rich people are going to the moon"
+print(MySpaceCompany)
+
+3. stuff = [["1", "2", "3", "4"], ["a", "b", "c", "d"], ["i", "ii", "iii", "iv"], ]
+print(stuff)
+stuff[1][2] = "croydon"
+print(stuff)
+
+4. outerArray = []
+InnerArray1 = []
+InnerArray2 = []
+print(outerArray)
+outerArray.append(InnerArray1)
+outerArray.append(InnerArray2)
+print(outerArray)
+
+5. EmptyArray = [["a" for column in range(5)] for row in range(2)]
+print(EmptyArray)
+user = int(input("choose the range(integer)"))
+EmptyArray = [["a" for column in range(user)] for row in range(2)]
+print(EmptyArray)`
+
+6. EmptyArray = [["a" for column in range(5)] for row in range(2)]
+print(EmptyArray)
+user = int(input("choose the range(integer)"))
+EmptyArray = [["a" for column in range(user)] for row in range(2)]
+print(EmptyArray)
+user1 = int(input("choose the index"))
+EmptyArray = [["a" for column in range(user)] for row in range(user1)]
+print(EmptyArray)
